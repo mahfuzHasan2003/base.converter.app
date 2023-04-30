@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Number Conversion</title>
+   <link rel="stylesheet" href="./style.css">
+   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body>
+   <div class="container">
+      <h2 class="heading"> Base Converter App by 'ICT Helpline 🖥️🖱️' </h2>
+      <div class="main-body">
+         <div class="top-part">
+            <input type="text" class="input-here" id="input-field">
+            <select name="convertFrom" id="convertFrom">
+               <option value="">Select one</option>
+               <option value="">Binary</option>
+               <option value="">Octal</option>
+               <option value="">Decimal</option>
+               <option value="">HexaDecimal</option>
+            </select>
+         </div>
+         <p><box-icon type='solid' name='down-arrow'></box-icon></p>
+         <div class="bottom-part">
+            <input type="text" class="input-here" disabled id="answer-field">
+            <select name="convertTo" id="convertTo">
+               <option value="">Select one</option>
+               <option value="">Binary</option>
+               <option value="">Octal</option>
+               <option value="">Decimal</option>
+               <option value="">HexaDecimal</option>
+            </select>
+         </div>
+         <button id="convert">Convert</button>
+         <small>join our facebook group <a href="https://www.facebook.com/groups/icthelplinebymahfuz"
+               target="_blank">click
+               here</a></small>
+      </div>
+   </div>
+
+   <script src="./app.js"></script>
+
+</body>
+
+</html>
